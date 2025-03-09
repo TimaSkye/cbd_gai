@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>blank_window</class>
+ <widget class="QWidget" name="blank_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>509</width>
+    <height>69</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>509</width>
+    <height>69</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>509</width>
+    <height>69</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Шаблоны заявок</string>
+  </property>
+  <widget class="QLabel" name="info_label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>401</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>10</pointsize>
+     <italic>true</italic>
+    </font>
+   </property>
+   <property name="text">
+    <string>Образец заявки будет загружен в рабочую папку по адресу C:\CBD\</string>
+   </property>
+  </widget>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>10</y>
+     <width>81</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Save</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="blanks_combo">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>401</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>Заявка на создание УЗ пользователей ИСОД МВД РФ</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Заявка на изменение УЗ пользователей ИСОД МВД РФ</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Заявка на восстановление пароля УЗ пользователей ИСОД МВД РФ</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Заявка и письмо на добавление пользователей ФИС ГИБДД-М</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Заявка и письмо на добавление пользователей АИУС, МИАС</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
