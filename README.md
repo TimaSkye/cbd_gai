@@ -6,6 +6,7 @@
 Используемые технологии: Python, PyQT6, SQLite.
 
 Запуск через main.py
+
 логин - admin
 
 пароль - admin
