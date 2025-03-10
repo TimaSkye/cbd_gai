@@ -128,14 +128,17 @@ class BlanksAppWindow(QMainWindow):
                     src_file = os.path.join(SRC_FOLDER, 'Заявка на создание учетных записей пользователей.xls')
                     output_file = os.path.join(OUTPUT_FOLDER, 'Заявка на создание учетных записей пользователей.xls')
                     shutil.copy(src_file, output_file)
+                    self.close()
                 case 1:
                     src_file = os.path.join(SRC_FOLDER, 'Заявка на изменение учетных записей пользователей.xls')
                     output_file = os.path.join(OUTPUT_FOLDER, 'Заявка на изменение учетных записей пользователей.xls')
                     shutil.copy(src_file, output_file)
+                    self.close()
                 case 2:
                     src_file = os.path.join(SRC_FOLDER, 'Заявка на восстановление пароля.xls')
                     output_file = os.path.join(OUTPUT_FOLDER, 'Заявка на восстановление пароля.xls')
                     shutil.copy(src_file, output_file)
+                    self.close()
                 case 3:
                     src_file_blank = os.path.join(SRC_FOLDER, 'На добавление позиций в ФИС.xls')
                     src_file_letter = os.path.join(SRC_FOLDER, 'Сопровод ФИС новый.docx')
@@ -143,6 +146,7 @@ class BlanksAppWindow(QMainWindow):
                     output_file_letter = os.path.join(OUTPUT_FOLDER, 'Сопровод ФИС новый.docx')
                     shutil.copy(src_file_blank, output_file_blank)
                     shutil.copy(src_file_letter, output_file_letter)
+                    self.close()
                 case 4:
                     src_file_blank = os.path.join(SRC_FOLDER, 'Заявка АИУС МИАС.xls')
                     src_file_letter = os.path.join(SRC_FOLDER, 'Сопровод АИУС новый.docx')
@@ -150,6 +154,7 @@ class BlanksAppWindow(QMainWindow):
                     output_file_letter = os.path.join(OUTPUT_FOLDER, 'Сопровод АИУС новый.docx')
                     shutil.copy(src_file_blank, output_file_blank)
                     shutil.copy(src_file_letter, output_file_letter)
+                    self.close()
         except Exception as e:
             self.error_window.show()
             self.error_window.ui.error_text.setText('Произошла ошибка! Пожалуйста свяжитесь с разработчиком.')
