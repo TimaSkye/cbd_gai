@@ -4,7 +4,7 @@ import sqlite3
 import sys
 import webbrowser
 
-from PyQt6.QtWidgets import QMainWindow, QApplication, QWidget, QDialog
+from PyQt6.QtWidgets import QMainWindow, QApplication, QDialog
 
 from blanks_window import Ui_blank_window
 from cbd_window import Ui_cbd_window
@@ -195,11 +195,6 @@ class DstAppWindow(QMainWindow):
             self.ui.dst_pass_browser.setText(result_str.strip())
         except sqlite3.Error as e:
             self.ui.dst_pass_browser.setText(f'Ошибка базы данных: {str(e)}')
-
-    # def closeEvent(self, event):
-    #     """Функция закрытия подключения к БД."""
-    #     self.conn.close()
-    #     event.accept()
 
 
 if __name__ == '__main__':

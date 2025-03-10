@@ -30,7 +30,7 @@
     <rect>
      <x>10</x>
      <y>10</y>
-     <width>281</width>
+     <width>282</width>
      <height>141</height>
     </rect>
    </property>
@@ -41,8 +41,8 @@
     </font>
    </property>
    <layout class="QGridLayout" name="gridLayout">
-    <item row="0" column="0">
-     <widget class="QPushButton" name="cbd_button">
+    <item row="5" column="0">
+     <widget class="QPushButton" name="dst_button">
       <property name="font">
        <font>
         <family>Times New Roman</family>
@@ -50,33 +50,7 @@
        </font>
       </property>
       <property name="text">
-       <string>База данных</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="0">
-     <widget class="QPushButton" name="po_button">
-      <property name="font">
-       <font>
-        <family>Times New Roman</family>
-        <pointsize>10</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Програмное обеспечение ИСОД МВД</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="0">
-     <widget class="QPushButton" name="blanks_button">
-      <property name="font">
-       <font>
-        <family>Times New Roman</family>
-        <pointsize>10</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Шаблоны заявок</string>
+       <string>Парольные фразы dst</string>
       </property>
      </widget>
     </item>
@@ -93,8 +67,8 @@
       </property>
      </widget>
     </item>
-    <item row="4" column="0">
-     <widget class="QPushButton" name="dst_button">
+    <item row="1" column="0">
+     <widget class="QPushButton" name="blanks_button">
       <property name="font">
        <font>
         <family>Times New Roman</family>
@@ -102,7 +76,33 @@
        </font>
       </property>
       <property name="text">
-       <string>Парольные фразы dst</string>
+       <string>Шаблоны заявок</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="cbd_button">
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>База данных</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPushButton" name="po_button">
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Загузить программное обеспечение ИСОД МВД</string>
       </property>
      </widget>
     </item>
